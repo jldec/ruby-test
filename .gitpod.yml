@@ -1,6 +1,6 @@
 tasks:
   - name: Shopify CLI
-    init:
+    init: |
       export GEM_HOME=/workspace/.rvm
       gem install shopify-cli
     command: |
