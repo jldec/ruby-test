@@ -1,0 +1,6 @@
+tasks:
+  - name: Shopify CLI
+    init: |
+      gem install shopify-cli
+    command: |
+      shopify login
